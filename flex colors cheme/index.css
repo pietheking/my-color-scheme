@@ -2,8 +2,9 @@ html, body {
     margin: 0;
     padding: 2vw;
     font-size: 18px;
-    min-width: 500px
+    min-width: 500px;
     font-family: 'Oswald', sans-serif;
+    background-color: #092A28;
 }
 header{
     display: flex;
@@ -42,4 +43,13 @@ section{
 }
 p{
     text-align: center
+}
+input,select{
+    background-color: #115550;
+    outline-width:.05rem ;
+    border: solid .05rem;
+    border-color:#146B65;
+}
+input[type=button]{
+    background-color:#146B65;
 }
